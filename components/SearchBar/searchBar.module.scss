@@ -123,13 +123,39 @@ p.desc {
 .filters button {
     margin-left: 10px;
     padding: 5px 10px;
-    border-radius: 4px;
+    border-radius: 5px;
     background-color: #f0f0f0;
-    border: none;
+    border: 1px solid #737A91 !important;
     cursor: pointer;
+    color: #737A91;
 }
 
 .filters button:hover {
-    background-color: #007bff;
-    color: white;
+    background-color: transparent;
+    color: #737A91;
+}
+
+.filters {
+    margin-top: 25px;
+
+    span {
+        font-size: 14px;
+        font-weight: 500;
+        color: #737A91;
+
+
+        button {
+            width: 77px;
+            height: 30px;
+            background-color: transparent;
+            color: #737A91 !important;
+            border: 2px solid #737A91 !important;
+            font-size: 12px;
+            font-weight: 500;
+
+            &:hover {
+                background-color: transparent !important;
+            }
+        }
+    }
 }
