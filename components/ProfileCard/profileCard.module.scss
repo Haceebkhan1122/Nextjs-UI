@@ -1,0 +1,192 @@
+.cardsSide {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-top: 20px;
+    padding-left: 28px;
+}
+
+.topCard {
+    width: 346px;
+    min-height: 248px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    border: 1px solid #F4F4F4;
+    background-color: #FFFFFF;
+}
+
+.infoBottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 57px;
+
+
+    h3 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #333333;
+        margin-bottom: 0px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 500;
+        color: #333333;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .location {
+        font-weight: 500;
+        font-size: 12px;
+        color: #585D6E;
+    }
+
+}
+
+
+.profile_bottom_card {
+    width: 346px;
+    height: 139px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #F4F4F4;
+    margin-top: 8px;
+
+    .single_stat {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #E9ECEF;
+
+        &:nth-child(3) {
+            border: none;
+        }
+
+
+
+        h5 {
+            font-size: 14px;
+            font-weight: 500;
+            color: #333333;
+        }
+
+        span {
+            font-size: 16px;
+            font-weight: 500;
+            color: #0154AA;
+
+        }
+
+    }
+}
+
+.single_card_calender {
+    width: 346px;
+    height: 56px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px;
+    background-color: #FFFFFF;
+    border: 1px solid #F4F4F4;
+    margin-top: 12px;
+
+    .left {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3px;
+
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333333;
+            margin-bottom: 0px;
+        }
+
+        p {
+            color: #737A91;
+            font-size: 14px;
+            font-weight: 500;
+            margin: 0;
+
+        }
+    }
+
+    .dropIcon {
+        background-image: url("data:image/svg+xml,%3Csvg width='13' height='8' viewBox='0 0 13 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.91 0.433005L12.97 1.49401L7.19297 7.27301C7.1004 7.36616 6.99033 7.44009 6.86908 7.49054C6.74783 7.54098 6.6178 7.56696 6.48647 7.56696C6.35514 7.56696 6.22511 7.54098 6.10386 7.49054C5.98261 7.44009 5.87254 7.36616 5.77997 7.27301L-3.04452e-05 1.49401L1.05997 0.434005L6.48497 5.85801L11.91 0.433005Z' fill='%23333333'/%3E%3C/svg%3E%0A");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        width: 15px;
+        height: 9px;
+    }
+}
+
+
+.profile_pic_side {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -48px;
+}
+
+.coverPicture {
+    height: 100px;
+    position: relative;
+
+}
+
+.profileImage img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.title,
+.location {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.stats p {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.calendar h4 {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.calendar p {
+    font-size: 0.9rem;
+    color: #007bff;
+    cursor: pointer;
+}

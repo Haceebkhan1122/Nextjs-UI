@@ -1,0 +1,8 @@
+.jobs {
+    margin-top: 20px;
+}
+
+.jobList {
+    display: flex;
+    gap: 15px;
+}

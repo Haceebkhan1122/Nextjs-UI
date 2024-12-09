@@ -1,0 +1,15 @@
+.dashboard {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    min-height: calc(100vh - 56.8px);
+    background-color: #f4f4f4;
+}
+
+.sidebar {
+    width: 25%;
+}
+
+.main {
+    width: 75%;
+}

@@ -1,0 +1,135 @@
+.searchArea {
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 8px;
+
+    h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 4px;
+        color: #333333;
+
+        span {
+            font-size: 22px;
+            font-weight: 600;
+            color: #0154AA;
+        }
+    }
+}
+
+
+
+p.desc {
+    font-size: 14px;
+    font-weight: 500;
+    color: #585D6E;
+}
+
+.searchForm {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    width: 100%;
+    height: 77px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 0 15px;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        width: 70%;
+        border: none;
+        color: #585D6E;
+        font-size: 14px;
+        font-weight: 500;
+
+        &::placeholder {
+            color: #585D6E;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+    select {
+        border: none;
+        color: #585D6E;
+        font-size: 14px;
+        font-weight: 500;
+        appearance: none;
+        background-image: url("data:image/svg+xml,%3Csvg width='9' height='5' viewBox='0 0 9 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.26446 -3.61251e-07L9 0.743627L4.99129 4.79398C4.92705 4.85927 4.85067 4.91108 4.76653 4.94644C4.6824 4.9818 4.59217 5 4.50104 5C4.40991 5 4.31968 4.9818 4.23555 4.94644C4.15141 4.91108 4.07503 4.85927 4.01079 4.79398L-1.86052e-07 0.743627L0.735543 0.000700918L4.5 3.80224L8.26446 -3.61251e-07Z' fill='%23585D6E'/%3E%3C/svg%3E%0A");
+        background-size: 10px;
+        background-position: center right 10%;
+        background-repeat: no-repeat;
+        padding-right: 28px !important;
+    }
+
+    button {
+        width: 140px;
+        height: 37px;
+        background-color: #0154AA !important;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 14px;
+        font-weight: 500;
+        justify-content: center;
+
+
+        .search_ico {
+            background-image: url("data:image/svg+xml,%3Csvg width='17' height='18' viewBox='0 0 17 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16.25 17L13.6566 14.4066' stroke='white' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3Cpath d='M12.8477 7.5487C12.8428 8.96647 12.3401 10.3375 11.4274 11.4224C10.5146 12.5072 9.24973 13.237 7.85367 13.4842C6.45762 13.7315 5.01908 13.4805 3.78925 12.775C2.55943 12.0696 1.61647 10.9546 1.12504 9.62471C0.63362 8.29482 0.624957 6.83456 1.10057 5.49894C1.57618 4.16331 2.50583 3.0372 3.7272 2.31723C4.94857 1.59726 6.38403 1.32921 7.78292 1.55986C9.18181 1.79051 10.4552 2.50521 11.3808 3.57917' stroke='white' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            display: block;
+            width: 15.5px;
+            height: 15.5px;
+            cursor: pointer;
+        }
+
+    }
+
+}
+
+.searchForm input,
+.searchForm select,
+.searchForm button {
+    padding: 10px;
+    border-radius: 4px;
+    border-right: 1px solid #ddd;
+    padding-right: 12px;
+    outline: none;
+}
+
+.noBorder {
+    border: none !important;
+}
+
+.searchForm button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.filters {
+    margin-top: 10px;
+}
+
+.filters span {
+    font-weight: bold;
+}
+
+.filters button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+}
+
+.filters button:hover {
+    background-color: #007bff;
+    color: white;
+}
